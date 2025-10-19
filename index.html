@@ -1,0 +1,2473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="KSRTC bus timings, detailed timetable for all buses departing from Cherthala"
+    />
+    <meta name="geo.region" content="IN-KL" />
+    <meta name="geo.placename" content="Cherthala" />
+    <title>Watch of Cherthala - KSRTC Bus Timings</title>
+    <meta
+      name="google-site-verification"
+      content="Dru6gvVh8xS6rHUnUMKDs19vmHRZaErmOHuARQDhaX4"
+    />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link
+      rel="shortcut icon"
+      href="assets/bus-favicon.avif"
+      type="image/x-icon"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body id="top">
+    <!-- This website is in now way, having any association or partnership with KSRTC or any related bodies. All the bus-related data was provided by KSRTC Cherthala officials and the creator is in no way, responsible for any misinformation/loss. User's/viewer's discretion is to be followed. -->
+    <!-- Abbreiations (not all): https://pullooramparavarthakal.blogspot.com/2014/11/blog-post_15.html -->
+    <!-- Do not use rowspan as it breaks search function in KSRTC table locations search JavaScript and makes some rows shift left -->
+    <!-- General template for KSRTC card: 
+   <div class="ksrtc-card">
+        <div class="bus-data">
+          <h1>[:]</h1>
+          <p>Schedule No: -- Trip Distance: km</p>
+        </div>
+        <div class="timetable">
+          <table>
+            <tr>
+              <th>Trip</th>
+              <th>Departure</th>
+              <th>From</th>
+              <th>To</th>
+              <th>Arrival</th>
+            </tr>
+            <tr>
+              <td>TRIP INFO</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+  -->
+    <div class="banner">
+      <div class="navbar">
+        <div class="logo-sec">
+          <h1>NSS</h1>
+          <img src="assets/nss-logo.avif" alt="NSS logo" class="logo" />
+          <h1>HFHSS Cherthala</h1>
+        </div>
+        <ul>
+          <li><a href="mailto:aravindanirudh1@gmail.com">Contact</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1>Watch of Cherthala</h1>
+        <p>An Initiative of NSS Unit, Holy Family HSS, Muttom, Cherthala</p>
+        <div>
+          <a href="#ksrtc-timings"
+            ><button type="button"><span></span>KSRTC</button></a
+          >
+          <br />
+          <a href="#ksrtc-num-id"
+            ><button class="ksrtc-num-btn" type="button">
+              <span></span>KSRTC Stand Numbers
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <hr style="height: 1px; border-width: 0; background-color: gray" />
+
+    <div id="ksrtc-timings">
+      <section class="ksrtc-time">
+        
+        <h1 class="heading-main">KSRTC Bus Timetable</h1>
+        <p class="warn">&#9888; Time is displayed in 24h format!</p>
+        <div class="tableSearchDiv">
+          <input class="table-search" oninput="searchHighlight()" type="text" id="text-to-search" placeholder="Search locations by highlighting...">
+        </div>
+
+        <div class="ksrtc-time-wrapper" id="text-highlight-here">
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Trivandrum Superfast Swift [04:55]</h1>
+              <p>Schedule No: 1 (201) -- Trip Distance: 604 km</p>
+            </div>
+            <div class="timetable">
+              <table class="resize">
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>04:55</td>
+                  <td>Cherthala</td>
+                  <td>Alappuzha (via NH)</td>
+                  <td>05:30</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>05:30</td>
+                  <td>Alappuzha</td>
+                  <td>Kayamkulam</td>
+                  <td>06:40</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:50</td>
+                  <td>Kayamkulam</td>
+                  <td>Kollam</td>
+                  <td>07:50</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>08:05</td>
+                  <td>Kollam</td>
+                  <td>Thiruvananthapuram</td>
+                  <td>09:55</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>11:00</td>
+                  <td>Thiruvananthapuram</td>
+                  <td>Kollam</td>
+                  <td>12:50</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>13:15</td>
+                  <td>Kollam</td>
+                  <td>Kayamkulam</td>
+                  <td>14:15</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>14:30</td>
+                  <td>Kayamkulam</td>
+                  <td>Alappuzha</td>
+                  <td>15:40</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>15:40</td>
+                  <td>Alappuzha</td>
+                  <td>Cherthala</td>
+                  <td>16:15</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>16:15</td>
+                  <td>Cherthala</td>
+                  <td>Vytilla</td>
+                  <td>17:10</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>17:20</td>
+                  <td>Vytilla</td>
+                  <td>Thrissur</td>
+                  <td>19:20</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>20:45</td>
+                  <td>Thrissur</td>
+                  <td>Cherthala</td>
+                  <td>23:45</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Trivandrum Superfast [06:35]</h1>
+              <p>Schedule No: 2 (202) -- Trip Distance: 604 km</p>
+            </div>
+            <div class="timetable">
+              <table class="resize">
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:35</td>
+                  <td>Cherthala</td>
+                  <td>Alappuzha</td>
+                  <td>07:10</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:10</td>
+                  <td>Alappuzha</td>
+                  <td>Kayamkulam</td>
+                  <td>08:15</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>08:25</td>
+                  <td>Kayamkulam</td>
+                  <td>Kollam</td>
+                  <td>09:15</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>09:30</td>
+                  <td>Kollam</td>
+                  <td>Thiruvananthapuram</td>
+                  <td>11:20</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>12:15</td>
+                  <td>Thiruvananthapuram</td>
+                  <td>Kollam</td>
+                  <td>14:05</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>14:10</td>
+                  <td>Kollam</td>
+                  <td>Kayamkulam</td>
+                  <td>15:10</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>15:30</td>
+                  <td>Kayamkulam</td>
+                  <td>Alappuzha</td>
+                  <td>16:40</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>16:40</td>
+                  <td>Alappuzha</td>
+                  <td>Cherthala</td>
+                  <td>17:15</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>17:15</td>
+                  <td>Cherthala</td>
+                  <td>Vytilla</td>
+                  <td>18:10</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>18:25</td>
+                  <td>Vytilla</td>
+                  <td>Thrissur</td>
+                  <td>20:25</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>21:30</td>
+                  <td>Thrissur</td>
+                  <td>Cherthala</td>
+                  <td>00:30</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Sulthan Bathery Superfast [06:50]</h1>
+              <p>Schedule No: 133 (204) -- Trip Distance: 634.4 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:50</td>
+                  <td>Cherthala</td>
+                  <td>Vytilla</td>
+                  <td>07:45</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:50</td>
+                  <td>Vytilla</td>
+                  <td>Guruvayoor (via Kodungallur)</td>
+                  <td>10:00</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>10:15</td>
+                  <td>Guruvayoor</td>
+                  <td>Ponnani</td>
+                  <td>10:50</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>10:50</td>
+                  <td>Ponnani</td>
+                  <td>Tirur</td>
+                  <td>11:20</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>11:20</td>
+                  <td>Tirur</td>
+                  <td>Kozhikode</td>
+                  <td>12:15</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>12:45</td>
+                  <td>Kozhikode</td>
+                  <td>Thamarassery</td>
+                  <td>13:30</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>13:30</td>
+                  <td>Thamarassery</td>
+                  <td>Kalpetta</td>
+                  <td>15:15</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>15:15</td>
+                  <td>Kalpetta</td>
+                  <td>Sulthan Bathery</td>
+                  <td>15:50</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>04:10</td>
+                  <td>Sulthan Bathery</td>
+                  <td>Kalpetta</td>
+                  <td>04:45</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>04:45</td>
+                  <td>Kalpetta</td>
+                  <td>Thamarassery</td>
+                  <td>05:55</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>05:55</td>
+                  <td>Thamarassery</td>
+                  <td>Perinthalmanna</td>
+                  <td>07:40</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>07:40</td>
+                  <td>Perinthalmanna</td>
+                  <td>Pattambi</td>
+                  <td>08:15</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>08:15</td>
+                  <td>Pattambi</td>
+                  <td>Shoranur</td>
+                  <td>08:40</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>08:40</td>
+                  <td>Shoranur</td>
+                  <td>Thrissur</td>
+                  <td>09:35</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>10:00</td>
+                  <td>Thrissur</td>
+                  <td>Vytilla</td>
+                  <td>12:00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>12:00</td>
+                  <td>Vytilla</td>
+                  <td>Cherthala</td>
+                  <td>13:00</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Mananthavady Superfast [16:00]</h1>
+              <p>Schedule No: 134 (205) -- Trip Distance: 671.7 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>16:00</td>
+                  <td>Cherthala</td>
+                  <td>Ernakulam Jetty</td>
+                  <td>17:00</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>17:15</td>
+                  <td>Ernakulam Jetty</td>
+                  <td>Guruvayoor</td>
+                  <td>19:25</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>19:40</td>
+                  <td>Guruvayoor</td>
+                  <td>Ponnani</td>
+                  <td>20:20</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>20:20</td>
+                  <td>Ponnani</td>
+                  <td>Tirur</td>
+                  <td>20:50</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>20:55</td>
+                  <td>Tirur</td>
+                  <td>Kozhikode</td>
+                  <td>22:15</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>22:40</td>
+                  <td>Kozhikode</td>
+                  <td>Thamarassery</td>
+                  <td>23:25</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>23:25</td>
+                  <td>Thamarassery</td>
+                  <td>Kalpetta</td>
+                  <td>00:30</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>00:40</td>
+                  <td>Kalpetta</td>
+                  <td>Mananthavady</td>
+                  <td>01:30</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>10:15</td>
+                  <td>Mananthavady</td>
+                  <td>Kalpetta</td>
+                  <td>11:05</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>11:10</td>
+                  <td>Kalpetta</td>
+                  <td>Thamarassery</td>
+                  <td>12:15</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>12:20</td>
+                  <td>Thamarassery</td>
+                  <td>Perinthalmanna</td>
+                  <td>14:00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>14:35</td>
+                  <td>Perinthalmanna</td>
+                  <td>Pattambi</td>
+                  <td>15:15</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>15:15</td>
+                  <td>Pattambi</td>
+                  <td>Shoranur</td>
+                  <td>15:35</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>15:35</td>
+                  <td>Shoranur</td>
+                  <td>Thrissur</td>
+                  <td>16:35</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>17:10</td>
+                  <td>Thrissur</td>
+                  <td>Vytilla</td>
+                  <td>19:30</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>19:30</td>
+                  <td>Vytilla</td>
+                  <td>Cherthala</td>
+                  <td>20:10</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Cherthala - Palani Superfast Swift [06:00]</h1>
+              <p>Schedule No: 10 (206) -- Trip Distance: 606 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:00</td>
+                  <td>Cherthala</td>
+                  <td>Ernakulam</td>
+                  <td>06:55</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:00</td>
+                  <td>Ernakulam</td>
+                  <td>Thrissur</td>
+                  <td>08:50</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>09:10</td>
+                  <td>Thrissur</td>
+                  <td>Palakkad</td>
+                  <td>10:40</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>10:50</td>
+                  <td>Palakkad</td>
+                  <td>Palani</td>
+                  <td>13:30</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>14:45</td>
+                  <td>Palani</td>
+                  <td>Palakkad</td>
+                  <td>17:10</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>17:10</td>
+                  <td>Palakkad</td>
+                  <td>Thrissur</td>
+                  <td>18:50</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>19:00</td>
+                  <td>Thrissur</td>
+                  <td>Ernakulam</td>
+                  <td>20:50</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>21:20</td>
+                  <td>Ernakulam</td>
+                  <td>Cherthala</td>
+                  <td>22:15</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Cherthala - Kozhikode [05:30]</h1>
+              <p>Schedule No: - (203) -- Trip Distance: 440 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>05:30</td>
+                  <td>Cherthala</td>
+                  <td>Vytilla</td>
+                  <td>06:30</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:35</td>
+                  <td>Vytilla</td>
+                  <td>Guruvayoor</td>
+                  <td>08:40</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>09:00</td>
+                  <td>Guruvayoor</td>
+                  <td>Ponnani</td>
+                  <td>09:40</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>09:40</td>
+                  <td>Ponnani</td>
+                  <td>Tirur</td>
+                  <td>10:20</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>10:20</td>
+                  <td>Tirur</td>
+                  <td>Kozhikode</td>
+                  <td>11:50</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>13:30</td>
+                  <td>Kozhikode</td>
+                  <td>Tirur</td>
+                  <td>14:50</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>14:50</td>
+                  <td>Tirur</td>
+                  <td>Ponnani</td>
+                  <td>15:30</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>15:30</td>
+                  <td>Ponnani</td>
+                  <td>Guruvayoor</td>
+                  <td>16:10</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>16:30</td>
+                  <td>Guruvayoor</td>
+                  <td>Vytilla</td>
+                  <td>18:35</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>18:35</td>
+                  <td>Vytilla</td>
+                  <td>Cherthala</td>
+                  <td>19:35</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Cherthala - Coimbatore [07:00]</h1>
+              <p>Schedule No: 03 (207) -- Trip Distance: 477.8 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:00</td>
+                  <td>Cherthala</td>
+                  <td>Ernakulam</td>
+                  <td>08:00</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>08:15</td>
+                  <td>Ernakulam</td>
+                  <td>Thrissur</td>
+                  <td>10:05</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>10:10</td>
+                  <td>Thrissur</td>
+                  <td>Palakkad</td>
+                  <td>11:45</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>11:55</td>
+                  <td>Palakkad</td>
+                  <td>Coimbatore</td>
+                  <td>13:05</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>14:30</td>
+                  <td>Coimbatore</td>
+                  <td>Palakkad</td>
+                  <td>15:40</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>15:40</td>
+                  <td>Palakkad</td>
+                  <td>Thrissur</td>
+                  <td>17:15</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>17:15</td>
+                  <td>Thrissur</td>
+                  <td>Ernakulam</td>
+                  <td>19:05</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>19:20</td>
+                  <td>Ernakulam</td>
+                  <td>Cherthala</td>
+                  <td>20:15</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Cherthala - Kozhikode Superfast [15:30]</h1>
+              <p>Schedule No: - (209) -- Trip Distance: 440 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>16:00</td>
+                  <td>Cherthala</td>
+                  <td>Vytilla</td>
+                  <td>16:55</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>17:00</td>
+                  <td>Vytilla</td>
+                  <td>Kakkanad</td>
+                  <td>17:20</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>17:25</td>
+                  <td>Kakkanad</td>
+                  <td>Aluva</td>
+                  <td>17:50</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>17:55</td>
+                  <td>Aluva</td>
+                  <td>Tirur</td>
+                  <td>19:30</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>20:00</td>
+                  <td>Tirur</td>
+                  <td>Kozhikode</td>
+                  <td>22:50</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>04:00</td>
+                  <td>Kozhikode</td>
+                  <td>Tirur</td>
+                  <td>06:50</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>07:20</td>
+                  <td>Tirur</td>
+                  <td>Aluva</td>
+                  <td>08:55</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>09:00</td>
+                  <td>Aluva</td>
+                  <td>Kakkanad</td>
+                  <td>09:25</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>09:30</td>
+                  <td>Kakkanad</td>
+                  <td>Vytilla</td>
+                  <td>09:50</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>09:55</td>
+                  <td>Vytilla</td>
+                  <td>Cherthala</td>
+                  <td>10:50</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <!-- FAST PASSENGER SECTION -->
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Ernakulam FP [05:30]</h1>
+              <p>Schedule No: 13 -- Trip Distance: 435.2 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>05:30</td>
+                  <td>Cherthala (via Thoppumpady)</td>
+                  <td>Ernakulam</td>
+                  <td>06:35</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>07:00</td>
+                  <td>Ernakulam</td>
+                  <td>Kayamkulam</td>
+                  <td>10:05</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>10:30</td>
+                  <td>Kayamkulam</td>
+                  <td>Ernakulam</td>
+                  <td>13:35</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>14:00</td>
+                  <td>Ernakulam</td>
+                  <td>Kayamkulam</td>
+                  <td>17:05</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>17:30</td>
+                  <td>Kayamkulam</td>
+                  <td>Cherthala</td>
+                  <td>19:30</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Ernakulam FP [06:00]</h1>
+              <p>Schedule No: 04 -- Trip Distance: 435.2 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:00</td>
+                  <td>Cherthala (via Thoppumpady)</td>
+                  <td>Ernakulam</td>
+                  <td>07:05</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>07:30</td>
+                  <td>Ernakulam</td>
+                  <td>Kayamkulam</td>
+                  <td>10:35</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>11:00</td>
+                  <td>Kayamkulam</td>
+                  <td>Ernakulam</td>
+                  <td>14:05</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>14:30</td>
+                  <td>Ernakulam</td>
+                  <td>Kayamkulam</td>
+                  <td>17:35</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>18:00</td>
+                  <td>Kayamkulam</td>
+                  <td>Cherthala</td>
+                  <td>20:00</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Ernakulam FP [07:00]</h1>
+              <p>Schedule No: 115 -- Trip Distance: 409.6 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:00</td>
+                  <td>Cherthala</td>
+                  <td>Ernakulam (via Thoppumpady)</td>
+                  <td>08:05</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>08:30</td>
+                  <td>Ernakulam</td>
+                  <td>Kayamkulam (via Thoppumpady)</td>
+                  <td>11:35</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>12:10</td>
+                  <td>Kayamkulam</td>
+                  <td>AIMS (via Vytilla)</td>
+                  <td>15:40</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>16:15</td>
+                  <td>AIMS</td>
+                  <td>Haripad (via Vytilla)</td>
+                  <td>19:00</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>19:15</td>
+                  <td>Haripad</td>
+                  <td>Cherthala</td>
+                  <td>20:45</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Ernakulam FP [08:30]</h1>
+              <p>Schedule No: 11 -- Trip Distance: 364 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>08:30</td>
+                  <td>Cherthala</td>
+                  <td>Ernakulam (via Vytilla)</td>
+                  <td>09:35</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>10:00</td>
+                  <td>Ernakulam</td>
+                  <td>Alappuzha (via Vytilla)</td>
+                  <td>11:45</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>12:10</td>
+                  <td>Alappuzha</td>
+                  <td>Ernakulam</td>
+                  <td>13:55</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>14:30</td>
+                  <td>Ernakulam</td>
+                  <td>Alappuzha</td>
+                  <td>16:15</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>16:45</td>
+                  <td>Alappuzha</td>
+                  <td>Vytilla</td>
+                  <td>18:30</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>18:40</td>
+                  <td>Vytilla</td>
+                  <td>Alappuzha</td>
+                  <td>20:30</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>20:40</td>
+                  <td>Alappuzha</td>
+                  <td>Cherthala</td>
+                  <td>21:30</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Kayamkulam FP [06:00]</h1>
+              <p>Schedule No: 08 -- Trip Distance: 435.2 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:00</td>
+                  <td>Cherthala</td>
+                  <td>Kayamkulam</td>
+                  <td>08:00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>08:25</td>
+                  <td>Kayamkulam</td>
+                  <td>Ernakulam (via Vytilla)</td>
+                  <td>11:30</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>11:55</td>
+                  <td>Ernakulam</td>
+                  <td>Kayamkulam</td>
+                  <td>15:00</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>15:25</td>
+                  <td>Kayamkulam</td>
+                  <td>Ernakulam (via Thoppumpady)</td>
+                  <td>18:30</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>18:50</td>
+                  <td>Ernakulam</td>
+                  <td>Cherthala (via Vytilla)</td>
+                  <td>19:50</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Kayamkulam FP [06:30]</h1>
+              <p>Schedule No: 05 -- Trip Distance: 435.2 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:30</td>
+                  <td>Cherthala</td>
+                  <td>Kayamkulam</td>
+                  <td>08:30</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>08:55</td>
+                  <td>Kayamkulam</td>
+                  <td>Ernakulam</td>
+                  <td>12:00</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>12:25</td>
+                  <td>Ernakulam</td>
+                  <td>Kayamkulam</td>
+                  <td>15:30</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>15:55</td>
+                  <td>Kayamkulam</td>
+                  <td>Ernakulam</td>
+                  <td>19:00</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>19:20</td>
+                  <td>Ernakulam</td>
+                  <td>Cherthala</td>
+                  <td>20:25</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Kayamkulam FP [07:00]</h1>
+              <p>Schedule No: 12 -- Trip Distance: 388 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:00</td>
+                  <td>Cherthala</td>
+                  <td>Kayamkulam</td>
+                  <td>09:00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>09:15</td>
+                  <td>Kayamkulam</td>
+                  <td>Ernakulam (via Thoppumpady)</td>
+                  <td>12:20</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>13:00</td>
+                  <td>Ernakulam</td>
+                  <td>Alappuzha (via Thoppumpady)</td>
+                  <td>14:45</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>15:00</td>
+                  <td>Alappuzha</td>
+                  <td>Vytilla</td>
+                  <td>16:40</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>16:50</td>
+                  <td>Vytilla</td>
+                  <td>Alappuzha</td>
+                  <td>18:30</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>19:00</td>
+                  <td>Alappuzha</td>
+                  <td>Cherthala</td>
+                  <td>19:40</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Kayamkulam FP [07:30]</h1>
+              <p>Schedule No: 07 -- Trip Distance: 388 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:30</td>
+                  <td>Cherthala</td>
+                  <td>Kayamkulam</td>
+                  <td>09:30</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>09:55</td>
+                  <td>Kayamkulam</td>
+                  <td>Ernakulam (via Vytilla)</td>
+                  <td>13:00</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>13:55</td>
+                  <td>Ernakulam</td>
+                  <td>Alappuzha</td>
+                  <td>15:40</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>16:10</td>
+                  <td>Alappuzha</td>
+                  <td>Ernakulam</td>
+                  <td>17:55</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>18:20</td>
+                  <td>Ernakulam</td>
+                  <td>Alappuzha</td>
+                  <td>20:05</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>20:20</td>
+                  <td>Alappuzha</td>
+                  <td>Cherthala</td>
+                  <td>21:00</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Fort Kochi - Thekkady [05:30]</h1>
+              <p>Schedule No: 136 -- Trip Distance: 441.9 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>05:30</td>
+                  <td>Cherthala</td>
+                  <td>Fort Kochi</td>
+                  <td>07:00</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:20</td>
+                  <td>Fort Kochi</td>
+                  <td>Kottayam (via Kumarakom)</td>
+                  <td>09:35</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>09:50</td>
+                  <td>Kottayam</td>
+                  <td>Mundakayam</td>
+                  <td>11:30</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>11:35</td>
+                  <td>Mundakayam</td>
+                  <td>Thekkady (via Kumily)</td>
+                  <td>13:35</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>14:15</td>
+                  <td>Thekkady</td>
+                  <td>Mundakayam</td>
+                  <td>16:15</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>16:20</td>
+                  <td>Mundakayam</td>
+                  <td>Thodupuzha</td>
+                  <td>17:50</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>17:55</td>
+                  <td>Thodupuzha</td>
+                  <td>Muvattupuzha</td>
+                  <td>18:30</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>18:30</td>
+                  <td>Muvattupuzha</td>
+                  <td>Vytilla (via Thrippunithura)</td>
+                  <td>19:35</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>19:45</td>
+                  <td>Vytilla</td>
+                  <td>Cherthala</td>
+                  <td>20:45</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Cherthala - Nilambur [06:50]</h1>
+              <p>Schedule No: 126 -- Trip Distance: 497.6 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:40</td>
+                  <td>Cherthala</td>
+                  <td>Aluva (via Arookutty, Vytilla)</td>
+                  <td>08:35</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>08:35</td>
+                  <td>Aluva</td>
+                  <td>Thrissur</td>
+                  <td>10:20</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>10:35</td>
+                  <td>Thrissur</td>
+                  <td>Perinthalmanna (via Kumarakom)</td>
+                  <td>12:35</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>12:35</td>
+                  <td>Perinthalmanna</td>
+                  <td>Pattikkad (via Vandoor)</td>
+                  <td>13:20</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>13:20</td>
+                  <td>Pattikkad</td>
+                  <td>Nilambur</td>
+                  <td>14:10</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>15:00</td>
+                  <td>Nilambur</td>
+                  <td>Perinthalmanna</td>
+                  <td>16:40</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>16:45</td>
+                  <td>Perinthalmanna</td>
+                  <td>Thrissur</td>
+                  <td>18:45</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>18:55</td>
+                  <td>Thrissur</td>
+                  <td>Aluva</td>
+                  <td>20:35</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>20:35</td>
+                  <td>Aluva</td>
+                  <td>Cherthala</td>
+                  <td>22:05</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Cherthala - Punalur FP [06:45]</h1>
+              <p>Schedule No: 09 -- Trip Distance: 445.2 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:45</td>
+                  <td>Cherthala</td>
+                  <td>Punalur</td>
+                  <td>10:15</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>10:45</td>
+                  <td>Punalur</td>
+                  <td>Ernakulam</td>
+                  <td>15:40</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>16:00</td>
+                  <td>Ernakulam</td>
+                  <td>Changanassery</td>
+                  <td>18:30</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>19:00</td>
+                  <td>Changanassery</td>
+                  <td>Cherthala</td>
+                  <td>20:20</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Cherthala - Aluva FP [06:20]</h1>
+              <p>Schedule No: 06 -- Trip Distance: 394.8 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:20</td>
+                  <td>Cherthala</td>
+                  <td>Aluva</td>
+                  <td>07:55</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>08:05</td>
+                  <td>Aluva</td>
+                  <td>Alappuzha</td>
+                  <td>10:15</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>10:30</td>
+                  <td>Alappuzha</td>
+                  <td>Aluva</td>
+                  <td>12:40</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>13:10</td>
+                  <td>Aluva</td>
+                  <td>Alappuzha</td>
+                  <td>15:20</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>15:30</td>
+                  <td>Alappuzha</td>
+                  <td>AIMS</td>
+                  <td>17:30</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>18:00</td>
+                  <td>AIMS</td>
+                  <td>Cherthala</td>
+                  <td>19:10</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Cherthala - Mannarkkad FP [06:50]</h1>
+              <p>Schedule No: 132 -- Trip Distance: 454.6 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:50</td>
+                  <td>Cherthala</td>
+                  <td>Aluva</td>
+                  <td>08:35</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>08:35</td>
+                  <td>Aluva</td>
+                  <td>Mannuthy</td>
+                  <td>10:30</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>10:30</td>
+                  <td>Mannuthy</td>
+                  <td>Palakkad</td>
+                  <td>12:15</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>12:35</td>
+                  <td>Palakkad</td>
+                  <td>Mannarkkad</td>
+                  <td>13:35</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>14:35</td>
+                  <td>Mannarkkad</td>
+                  <td>Palakkad</td>
+                  <td>15:45</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>16:00</td>
+                  <td>Palakkad</td>
+                  <td>Mannuthy</td>
+                  <td>17:45</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>17:45</td>
+                  <td>Mannuthy</td>
+                  <td>Aluva</td>
+                  <td>19:40</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>19:40</td>
+                  <td>Aluva</td>
+                  <td>Cherthala</td>
+                  <td>21:10</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Ernakulam FP [06:30]</h1>
+              <p>Schedule No: 123 -- Trip Distance: 435.2 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:30</td>
+                  <td>Cherthala</td>
+                  <td>Ernakulam (via Thoppumpady)</td>
+                  <td>07:35</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>08:00</td>
+                  <td>Ernakulam</td>
+                  <td>Kayamkulam</td>
+                  <td>11:05</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>11:30</td>
+                  <td>Kayamkulam</td>
+                  <td>Ernakulam</td>
+                  <td>14:35</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>15:00</td>
+                  <td>Ernakulam</td>
+                  <td>Kayamkulam</td>
+                  <td>18:05</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>18:30</td>
+                  <td>Kayamkulam</td>
+                  <td>Cherthala</td>
+                  <td>20:30</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Cherthala - Pathanamthitta FP [07:10]</h1>
+              <p>Schedule No: 122 -- Trip Distance: 411.4 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:10</td>
+                  <td>Cherthala</td>
+                  <td>Alappuzha</td>
+                  <td>07:50</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:50</td>
+                  <td>Alappuzha</td>
+                  <td>Thiruvalla</td>
+                  <td>09:00</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>09:10</td>
+                  <td>Thiruvalla</td>
+                  <td>Pathanamthitta</td>
+                  <td>10:00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>10:30</td>
+                  <td>Pathanamthitta</td>
+                  <td>Alappuzha</td>
+                  <td>12:40</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>13:10</td>
+                  <td>Alappuzha</td>
+                  <td>Aluva</td>
+                  <td>15:20</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>15:40</td>
+                  <td>Aluva</td>
+                  <td>Alappuzha</td>
+                  <td>17:50</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>18:10</td>
+                  <td>Alappuzha</td>
+                  <td>Cherthala</td>
+                  <td>18:50</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>19:10</td>
+                  <td>Cherthala</td>
+                  <td>Thoppumpady</td>
+                  <td>20:10</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>20:30</td>
+                  <td>Thoppumpady</td>
+                  <td>Cherthala</td>
+                  <td>21:30</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Cherthala - Thuravoor - Pamba FP [06:20]</h1>
+              <p>Schedule No: 102 -- Trip Distance: 413.8 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:20</td>
+                  <td>Cherthala</td>
+                  <td>Thuravoor</td>
+                  <td>06:35</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:50</td>
+                  <td>Thuravoor</td>
+                  <td>Cherthala</td>
+                  <td>07:10</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:15</td>
+                  <td>Cherthala</td>
+                  <td>Alappuzha</td>
+                  <td>07:50</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:55</td>
+                  <td>Alappuzha</td>
+                  <td>Thiruvalla</td>
+                  <td>09:05</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>09:10</td>
+                  <td>Thiruvalla</td>
+                  <td>Pathanamthitta</td>
+                  <td>10:00</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>10:30</td>
+                  <td>Pathanamthitta</td>
+                  <td>Pamba</td>
+                  <td>12:55</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>13:45</td>
+                  <td>Pamba</td>
+                  <td>Pathanamthitta</td>
+                  <td>15:45</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>15:50</td>
+                  <td>Pathanamthitta</td>
+                  <td>Thiruvalla</td>
+                  <td>16:45</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>16:50</td>
+                  <td>Thiruvalla</td>
+                  <td>Alappuzha</td>
+                  <td>18:00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>18:00</td>
+                  <td>Alappuzha</td>
+                  <td>Cherthala</td>
+                  <td>18:40</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>18:40</td>
+                  <td>Cherthala</td>
+                  <td>Ernakulam</td>
+                  <td>19:45</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>20:10</td>
+                  <td>Ernakulam</td>
+                  <td>Cherthala</td>
+                  <td>21:15</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Cherthala - Nedumkandam [07:25]</h1>
+              <p>Duty No: 07 -- Trip Distance: 360 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:25</td>
+                  <td>Cherthala</td>
+                  <td>Kottayam (via Kallara)</td>
+                  <td>08:45</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>08:50</td>
+                  <td>Kottayam</td>
+                  <td>Mundakayam (via Ponkunnam, Kanjirappally)</td>
+                  <td>10:35</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>10:40</td>
+                  <td>Mundakayam</td>
+                  <td>Kattappana (via Elapara)</td>
+                  <td>12:40</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>12:50</td>
+                  <td>Kattappana</td>
+                  <td>Nedumkandam (via Thukkupalam)</td>
+                  <td>13:50</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>15:00</td>
+                  <td>Nedumkandam</td>
+                  <td>Kattappana (via Thukkupalam)</td>
+                  <td>16:00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>16:10</td>
+                  <td>Kattappana</td>
+                  <td>Mundakayam (via Elapara)</td>
+                  <td>18:10</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>18:20</td>
+                  <td>Mundakayam</td>
+                  <td>Kottayam (via Ponkunnam, Kanjirappally)</td>
+                  <td>19:55</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>20:00</td>
+                  <td>Kottayam</td>
+                  <td>Cherthala (via Kallara)</td>
+                  <td>21:25</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Cherthala - Santhanpara FP [14:10]</h1>
+              <p>Duty No: 139 -- Trip Distance: 416 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>14:10</td>
+                  <td>Cherthala</td>
+                  <td>Kottayam (via Kallara, Neendoor)</td>
+                  <td>15:35</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>15:40</td>
+                  <td>Kottayam</td>
+                  <td>Thodupuzha (via Ettumanoor)</td>
+                  <td>17:20</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>17:30</td>
+                  <td>Thodupuzha</td>
+                  <td>Adimali (via Paingottoor, Neriamangalam)</td>
+                  <td>19:30</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>19:35</td>
+                  <td>Adimali</td>
+                  <td>Santhanpara (via Rajakkad)</td>
+                  <td>21:15</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>04:30</td>
+                  <td>Santhanpara</td>
+                  <td>Adimali (via Rajakkad)</td>
+                  <td>06:10</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>06:10</td>
+                  <td>Adimali</td>
+                  <td>Thodupuzha (via Neriamangalam, Paingottoor)</td>
+                  <td>08:10</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>08:20</td>
+                  <td>Thodupuzha</td>
+                  <td>Kottayam (via Ettumanoor)</td>
+                  <td>10:00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>10:00</td>
+                  <td>Kottayam</td>
+                  <td>Cherthala (via Neendoor, Kallara)</td>
+                  <td>11:25</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Cherthala - Munnar - Suryanelli [07:25]</h1>
+              <p>Duty No: 125 -- Trip Distance: 386.8 km</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>05:20</td>
+                  <td>Cherthala</td>
+                  <td>Vaikom</td>
+                  <td>06:00</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:05</td>
+                  <td>Vaikom</td>
+                  <td>Piravom</td>
+                  <td>06:55</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>06:55</td>
+                  <td>Piravom</td>
+                  <td>Muvattupuzha</td>
+                  <td>07:40</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:45</td>
+                  <td>Muvattupuzha</td>
+                  <td>Kothamangalam</td>
+                  <td>08:10</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>08:15</td>
+                  <td>Kothamangalam</td>
+                  <td>Adimali</td>
+                  <td>09:50</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>10:00</td>
+                  <td>Adimali</td>
+                  <td>Munnar (via Anachal)</td>
+                  <td>11:00</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>11:15</td>
+                  <td>Munnar</td>
+                  <td>Suryanelli</td>
+                  <td>12:15</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>13:15</td>
+                  <td>Suryanelli</td>
+                  <td>Munnar</td>
+                  <td>14:15</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>14:20</td>
+                  <td>Munnar</td>
+                  <td>Adimali (via Anachal)</td>
+                  <td>15:20</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>15:25</td>
+                  <td>Adimali</td>
+                  <td>Kothamangalam</td>
+                  <td>16:35</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>17:05</td>
+                  <td>Kothamangalam</td>
+                  <td>Perumbavoor</td>
+                  <td>17:45</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>17:50</td>
+                  <td>Perumbavoor</td>
+                  <td>Aluva</td>
+                  <td>18:10</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>18:20</td>
+                  <td>Aluva</td>
+                  <td>Cherthala (via Vytilla)</td>
+                  <td>19:55</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="ksrtc-card">
+            <div class="bus-data">
+              <h1>Cherthala - Arthunkal - Velankanni [14:30]</h1>
+              <p>Schedule No: 135 (208)</p>
+            </div>
+            <div class="timetable">
+              <table>
+                <tr>
+                  <th>Trip</th>
+                  <th>Departure</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Arrival</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>14:30</td>
+                  <td>Cherthala</td>
+                  <td>Arthunkal</td>
+                  <td>14:45</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>14:50</td>
+                  <td>Arthunkal</td>
+                  <td>Ernakulam Jetty</td>
+                  <td>15:55</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>16:05</td>
+                  <td>Ernakulam Jetty</td>
+                  <td>Kodungallur</td>
+                  <td>17:05</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>17:05</td>
+                  <td>Kodungallur</td>
+                  <td>Guruvayoor</td>
+                  <td>18:15</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>18:45</td>
+                  <td>Guruvayoor</td>
+                  <td>Pattambi</td>
+                  <td>19:45</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>19:45</td>
+                  <td>Pattambi</td>
+                  <td>Ottapalam</td>
+                  <td>20:25</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>20:25</td>
+                  <td>Ottapalam</td>
+                  <td>Palakkad</td>
+                  <td>21:20</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>21:30</td>
+                  <td>Palakkad</td>
+                  <td>Coimbatore</td>
+                  <td>22:55</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>22:55</td>
+                  <td>Coimbatore</td>
+                  <td>Kangayam</td>
+                  <td>00:45</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>01:00</td>
+                  <td>Kangayam</td>
+                  <td>Vellakoil</td>
+                  <td>01:25</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>01:25</td>
+                  <td>Vellakoil</td>
+                  <td>Karoor</td>
+                  <td>02:20</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>02:20</td>
+                  <td>Karoor</td>
+                  <td>Kulathalai</td>
+                  <td>03:15</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>03:15</td>
+                  <td>Kulathalai</td>
+                  <td>Trichi</td>
+                  <td>04:05</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>04:05</td>
+                  <td>Trichi</td>
+                  <td>Tanjavoor</td>
+                  <td>05:25</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>05:55</td>
+                  <td>Tanjavoor</td>
+                  <td>Thiruvarur</td>
+                  <td>07:15</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:15</td>
+                  <td>Thiruvarur</td>
+                  <td>Nagapattanam</td>
+                  <td>07:55</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>07:55</td>
+                  <td>Nagapattanam</td>
+                  <td>Velankanni</td>
+                  <td>08:15</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>17:30</td>
+                  <td>Velankanni</td>
+                  <td>Nagapattanam</td>
+                  <td>17:50</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>17:50</td>
+                  <td>Nagapattanam</td>
+                  <td>Thiruvarur</td>
+                  <td>18:30</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>18:30</td>
+                  <td>Thiruvarur</td>
+                  <td>Tanjavoor</td>
+                  <td>20:00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>20:00</td>
+                  <td>Tanjavoor</td>
+                  <td>Trichi</td>
+                  <td>21:30</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>21:30</td>
+                  <td>Trichi</td>
+                  <td>Kulathalai</td>
+                  <td>22:20</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>22:50</td>
+                  <td>Kulithalai</td>
+                  <td>Karoor</td>
+                  <td>23:45</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>23:45</td>
+                  <td>Karoor</td>
+                  <td>Vellakoil</td>
+                  <td>00:40</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>00:40</td>
+                  <td>Vellakoil</td>
+                  <td>Kangayam</td>
+                  <td>01:05</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>01:05</td>
+                  <td>Kangayam</td>
+                  <td>Coimbatore</td>
+                  <td>02:55</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>03:10</td>
+                  <td>Coimbatore</td>
+                  <td>Palakkad</td>
+                  <td>04:25</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>04:25</td>
+                  <td>Palakkad</td>
+                  <td>Ottapalam</td>
+                  <td>05:10</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>05:10</td>
+                  <td>Ottapalam</td>
+                  <td>Pattambi</td>
+                  <td>05:45</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>05:45</td>
+                  <td>Pattambi</td>
+                  <td>Guruvayoor</td>
+                  <td>06:30</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>07:00</td>
+                  <td>Guruvayoor</td>
+                  <td>Kodungallur</td>
+                  <td>08:10</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>08:10</td>
+                  <td>Kodungallur</td>
+                  <td>Ernakulam Jetty</td>
+                  <td>09:10</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>09:15</td>
+                  <td>Ernakulam Jetty</td>
+                  <td>Arthunkal</td>
+                  <td>10:20</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>10:25</td>
+                  <td>Arthunkal</td>
+                  <td>Cherthala</td>
+                  <td>10:40</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <hr style="height: 1px; border-width: 0; background-color: gray" />
+
+    <div id="ksrtc-num-id">
+      <section class="ksrtc-numbers">
+        <h1>KSRTC Stand Numbers</h1>
+        <div class="stand-search-wrapper">
+          <input
+            class="standInput"
+            type="search"
+            placeholder="Search numbers..."
+            id="standSearch"
+            stand-search
+          />
+        </div>
+        <div class="standinfo-cont">
+          <div class="stand-cards" data-stand-cards-container></div>
+        </div>
+        <template data-stand-template>
+          <div class="standInfo">
+            <div class="area" data-area></div>
+            <div class="phn" data-phn></div>
+          </div>
+        </template>
+        <hr style="height: 1px; border-width: 0; background-color: gray" />
+        <div class="copyright-sec">
+          <p>Copyright &copy; 2024 Aravind A Kamath</p>
+        </div>
+      </section>
+    </div>
+    <!-- Back to Top Button -->
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+    <hr style="height: 1px; border-width: 0; background-color: gray" />
+    <!-- Ionicon Link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

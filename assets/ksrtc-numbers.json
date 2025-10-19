@@ -1,0 +1,390 @@
+[
+  {
+    "area": "Adoor",
+    "phn": "0473-4224764"
+  },
+  {
+    "area": "Alappuzha",
+    "phn": "0477-2252501"
+  },
+  {
+    "area": "Aluva",
+    "phn": "0484-2624242"
+  },
+  {
+    "area": "Anayara",
+    "phn": "0471-2749400"
+  },
+  {
+    "area": "Angamaly",
+    "phn": "0484-2453050"
+  },
+  {
+    "area": "Aryanad",
+    "phn": "0472-2853900"
+  },
+  {
+    "area": "Aryankavu",
+    "phn": "0475-2211300"
+  },
+  {
+    "area": "Attingal",
+    "phn": "0470-2622202"
+  },
+  {
+    "area": "Bangalore",
+    "phn": "0802-6756666"
+  },
+  {
+    "area": "Chadayamangalam",
+    "phn": "0474-2476200"
+  },
+  {
+    "area": "Chalakudy",
+    "phn": "0480-2701638"
+  },
+  {
+    "area": "Changanassery",
+    "phn": "0481-2420245"
+  },
+  {
+    "area": "Chathannur",
+    "phn": "0474-2592900"
+  },
+  {
+    "area": "Chenganoor",
+    "phn": "0479-2452352"
+  },
+  {
+    "area": "Cherthala",
+    "phn": "0478-2812582"
+  },
+  {
+    "area": "Chitoor",
+    "phn": "0492-3227488"
+  },
+  {
+    "area": "Edathuva",
+    "phn": "0477-2215400"
+  },
+  {
+    "area": "Eenchakkal",
+    "phn": "0471-2501180"
+  },
+  {
+    "area": "Eerattupetta",
+    "phn": "0482-2272230"
+  },
+  {
+    "area": "Ernakulam",
+    "phn": "0484-2372033"
+  },
+  {
+    "area": "Erumely",
+    "phn": "0482-8212345"
+  },
+  {
+    "area": "Guruvayoor",
+    "phn": "0487-2556450"
+  },
+  {
+    "area": "Haripad",
+    "phn": "0479-2412620"
+  },
+  {
+    "area": "Irinjalakkuda",
+    "phn": "0480-2823990"
+  },
+  {
+    "area": "Kalpetta",
+    "phn": "0493-6202611"
+  },
+  {
+    "area": "Kanhangad",
+    "phn": "0467-2200055"
+  },
+  {
+    "area": "Kaniyapuram",
+    "phn": "0471-2752533"
+  },
+  {
+    "area": "Kannur",
+    "phn": "0497-2707777"
+  },
+  {
+    "area": "Karunagapally",
+    "phn": "0476-2620466"
+  },
+  {
+    "area": "Kasaragod",
+    "phn": "0499-4230677"
+  },
+  {
+    "area": "Kattakada",
+    "phn": "0471-2290381"
+  },
+  {
+    "area": "Kattappana",
+    "phn": "0486-8252333"
+  },
+  {
+    "area": "Kayamkulam",
+    "phn": "0479-2442022"
+  },
+  {
+    "area": "Kilimanoor",
+    "phn": "0470-2672217"
+  },
+  {
+    "area": "Kodungaloor",
+    "phn": "0480-2803155"
+  },
+  {
+    "area": "Kollam",
+    "phn": "0474-2752008"
+  },
+  {
+    "area": "Konni",
+    "phn": "0468-2244555"
+  },
+  {
+    "area": "Koothattukulam",
+    "phn": "0485-2253444"
+  },
+  {
+    "area": "Kothamangalam",
+    "phn": "0485-2862202"
+  },
+  {
+    "area": "Kottarakkara",
+    "phn": "0474-2452622"
+  },
+  {
+    "area": "Kottayam",
+    "phn": "0481-2562908"
+  },
+  {
+    "area": "Kozhikode",
+    "phn": "0495-2723796"
+  },
+  {
+    "area": "Kulathupuzha",
+    "phn": "0475-2318777"
+  },
+  {
+    "area": "Kumaly",
+    "phn": "0486-9224242"
+  },
+  {
+    "area": "Mala",
+    "phn": "0480-2890438"
+  },
+  {
+    "area": "Malappuram",
+    "phn": "0483-2734950"
+  },
+  {
+    "area": "Mallapally",
+    "phn": "0469-2785080"
+  },
+  {
+    "area": "Mananthavady",
+    "phn": "0493-5240640"
+  },
+  {
+    "area": "Mannarghat",
+    "phn": "0492-4225150"
+  },
+  {
+    "area": "Mavelikara",
+    "phn": "0479-2302282"
+  },
+  {
+    "area": "Moolamattom",
+    "phn": "0486-2252045"
+  },
+  {
+    "area": "Moovattupuzha",
+    "phn": "0485-2832321"
+  },
+  {
+    "area": "Munnar",
+    "phn": "0486-5230201"
+  },
+  {
+    "area": "Nedumangad",
+    "phn": "0472-2812235"
+  },
+  {
+    "area": "Nedumkandam",
+    "phn": "04868-234533"
+  },
+  {
+    "area": "Neyyatinkara",
+    "phn": "0471-2222243"
+  },
+  {
+    "area": "Nilambur",
+    "phn": "04931-223929"
+  },
+  {
+    "area": "North Paravur",
+    "phn": "0484-2442373"
+  },
+  {
+    "area": "Pala",
+    "phn": "0482-2212250"
+  },
+  {
+    "area": "Palakkad",
+    "phn": "0491-2520098"
+  },
+  {
+    "area": "Palode",
+    "phn": "0472-2840259"
+  },
+  {
+    "area": "Pamba",
+    "phn": "0473-5203445"
+  },
+  {
+    "area": "Pandalam",
+    "phn": "0473-4255800"
+  },
+  {
+    "area": "Pappanamcode",
+    "phn": "0471-2494002"
+  },
+  {
+    "area": "Parassala",
+    "phn": "0471-2202058"
+  },
+  {
+    "area": "Pathanamthitta",
+    "phn": "0468-2222366"
+  },
+  {
+    "area": "Pathanapuram",
+    "phn": "0475-2354010"
+  },
+  {
+    "area": "Payyanur",
+    "phn": "0498-5203062"
+  },
+  {
+    "area": "Perinthalmanna",
+    "phn": "0493-3227342"
+  },
+  {
+    "area": "Peroorkada",
+    "phn": "0471-2433683"
+  },
+  {
+    "area": "Perumbavoor",
+    "phn": "0484-2523416"
+  },
+  {
+    "area": "Piravom",
+    "phn": "0485-2265533"
+  },
+  {
+    "area": "Ponkunnam",
+    "phn": "0482-8221333"
+  },
+  {
+    "area": "Ponnani",
+    "phn": "0494-2666396"
+  },
+  {
+    "area": "Poovar",
+    "phn": "0471-2210047"
+  },
+  {
+    "area": "Punalur",
+    "phn": "0475-2222626"
+  },
+  {
+    "area": "Puthukkadu",
+    "phn": "0480-2751648"
+  },
+  {
+    "area": "Ranni",
+    "phn": "04735-225253"
+  },
+  {
+    "area": "Sulthan Bathery",
+    "phn": "0493-6220217"
+  },
+  {
+    "area": "Thalassery",
+    "phn": "0490-2343333"
+  },
+  {
+    "area": "Thamarassery",
+    "phn": "0495-2222217"
+  },
+  {
+    "area": "Thiruvalla",
+    "phn": "0469-2602945"
+  },
+  {
+    "area": "Thiruvambady",
+    "phn": "0495-2254500"
+  },
+  {
+    "area": "Thodupuzha",
+    "phn": "0486-2222388"
+  },
+  {
+    "area": "Thottilpalam",
+    "phn": "0496-2566200"
+  },
+  {
+    "area": "Thrissur",
+    "phn": "0487-2421150"
+  },
+  {
+    "area": "TVM Central",
+    "phn": "0471-2323886"
+  },
+  {
+    "area": "TVM City",
+    "phn": "0471-2575495"
+  },
+  {
+    "area": "Vadakara",
+    "phn": "0496-2523377"
+  },
+  {
+    "area": "Vadakkanchery",
+    "phn": "0492-2255001"
+  },
+  {
+    "area": "Vaikom",
+    "phn": "0482-9231210"
+  },
+  {
+    "area": "Vellanad",
+    "phn": "0472-2884686"
+  },
+  {
+    "area": "Vellarada",
+    "phn": "0471-2242029"
+  },
+  {
+    "area": "Venjaramoodu",
+    "phn": "0472-2874141"
+  },
+  {
+    "area": "Vikasbhavan",
+    "phn": "0471-2307890"
+  },
+  {
+    "area": "Vithura",
+    "phn": "0472-2858686"
+  },
+  {
+    "area": "Vizhinjam",
+    "phn": "0471-2481365"
+  }
+]
