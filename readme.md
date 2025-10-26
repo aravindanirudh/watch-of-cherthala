@@ -2,7 +2,7 @@
 - A small static website that provides KSRTC bus timetables and stand contact numbers for Cherthala. The site is a lightweight, mobile-friendly/responsive HTML/CSS/JavaScript project intended to be hosted as a static site (deployed to Firebase in the original project)
 - Website created under the initiative of Holy Family HSS, Muttom and NSS SFU 12
 - One of my first major projects for public usage
-- Live demo (deployed): https://watchofcthla.web.app
+- For live demo, check https://watchofcthla.web.app
 
 ---
 
