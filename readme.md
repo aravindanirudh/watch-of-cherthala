@@ -37,7 +37,7 @@ The site emphasizes a simple UI and two search experiences:
 
 ## Features
 - Static timetable cards with individual schedules for many routes (built directly in [index.html](index.html))
-- Table "highlight" search — typed text will highlight matches in all `<td>` cells (`searchHighlight` and `clearHighlights` in [script.js](script.js))
+- Table "highlight" search - typed text will highlight matches in all `<td>` cells (`searchHighlight` and `clearHighlights` in [script.js](script.js))
 - Stand numbers rendered from JSON with a template; live filtering of cards while typing (DOM template + `fetch('assets/ksrtc-numbers.json')` in [script.js](script.js))
 - Mobile-first responsive CSS using grid/media queries ([styles.css](styles.css))
 - All assets are in the directory `assets/` (icons and images)
@@ -45,15 +45,15 @@ The site emphasizes a simple UI and two search experiences:
 ---
 
 ## File structure
-- [index.html](index.html) — main markup, timetable cards and UI scaffolding
-- [styles.css](styles.css) — global styles, layout rules and responsive behavior 
-- [script.js](script.js) — client-side JS handling: stand-number rendering and both search features. See symbols:
-  - [`searchHighlight`](script.js) — highlights matching text in timetable table cells
-  - [`clearHighlights`](script.js) — clears previous highlights
-  - [`standCardTemplate`](script.js), [`standCardContainer`](script.js), [`searchStandInput`](script.js) — DOM handles for stand-cards rendering and filtering
+- [index.html](index.html) - main markup, timetable cards and UI scaffolding
+- [styles.css](styles.css) - global styles, layout rules and responsive behavior 
+- [script.js](script.js) - client-side JS handling: stand-number rendering and both search features. See symbols:
+  - [`searchHighlight`](script.js) - highlights matching text in timetable table cells
+  - [`clearHighlights`](script.js) - clears previous highlights
+  - [`standCardTemplate`](script.js), [`standCardContainer`](script.js), [`searchStandInput`](script.js) - DOM handles for stand-cards rendering and filtering
 - assets/
-  - `bus-favicon.avif`, `bus-kerala.avif`, `nss-logo.avif`, `VytillaHubMain.avif` — images used by the site
-  - [assets/ksrtc-numbers.json](assets/ksrtc-numbers.json) — JSON source for stand numbers
+  - `bus-favicon.avif`, `bus-kerala.avif`, `nss-logo.avif`, `VytillaHubMain.avif` - images used by the site
+  - [assets/ksrtc-numbers.json](assets/ksrtc-numbers.json) - JSON source for stand numbers
 
 ---
 
@@ -64,7 +64,7 @@ The site emphasizes a simple UI and two search experiences:
   - [`searchHighlight`](script.js) reads the input, normalizes to lower case, finds matching `<td>` content and wraps matches with `<mark class="highlight">...</mark>`
   - Before highlighting it calls [`clearHighlights`](script.js) to restore original text content for each cell
 - Notes and caveats:
-  - Do not use table `rowspan` in the timetable tables — the index.html contains a warning because rowspan may cause row/column alignment issues and may break the cell-based search logic
+  - Do not use table `rowspan` in the timetable tables - the index.html contains a warning because rowspan may cause row/column alignment issues and may break the cell-based search logic
   - The highlight logic runs a RegExp replace using the raw typed string; it does not currently escape special RegExp characters. If you expect search terms containing regex metacharacters (e.g. `*`, `+`, `?`, `(`, `)`), filter/escape them before building the RegExp
 
 Files: [index.html](index.html), [`searchHighlight`](script.js), [`clearHighlights`](script.js)
@@ -95,7 +95,7 @@ File: [styles.css](styles.css)
 ---
 
 ## Run locally / Development
-This is a static site — to preview locally, you can:
+This is a static site - to preview locally, you can:
 1. Open [index.html](index.html) directly in the browser (works for most features except some browsers may block `fetch()` for local files)
 2. Recommended: serve a local static server to avoid CORS/file access issues
 Example using Python 3:
